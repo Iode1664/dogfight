@@ -2,17 +2,19 @@ package dogfight.view;
 
 import java.awt.image.BufferedImage;
 
+import game.frame.IGraphicsBuilder;
+
 public class GraphicsBuilder implements IGraphicsBuilder{
 
 	public int Width;
 	public int Height;
-	protected IDoghtFightModel dogfightModel;
+	//protected IDoghtFightModel dogfightModel;
 	
 	
 	public GraphicsBuilder(IDogfightModel dogfightModel){
 		
-		this.dogfightModel = new IDogfightModel();
-		this.dogfightModel.setGraphicsBuilder(this);
+		/*this.dogfightModel = new IDogfightModel();
+		this.dogfightModel.setGraphicsBuilder(this);*/
 		
 	}
 	

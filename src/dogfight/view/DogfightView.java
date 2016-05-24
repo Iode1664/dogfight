@@ -2,6 +2,7 @@ package dogfight.view;
 
 import java.lang.Runnable;
 
+
 public class DogfightView implements IViewSystem , Runnable {
 	
 	
@@ -15,6 +16,7 @@ public class DogfightView implements IViewSystem , Runnable {
 	}
 	
 	public String displayMessage(String message){
+		return message;
 		
 	}
 	
