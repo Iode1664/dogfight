@@ -22,6 +22,8 @@ public interface IDogfightModel {
 
 	public void setMobilesHavesMoved();
 
+	public void setGraphicsBuilder(GraphicsBuilder graphicsBuilder);
+
 }
 
 	

@@ -2,6 +2,8 @@ package jpu2016.dogfight.model;
 
 import java.util.ArrayList;
 
+import dogfight.view.GraphicsBuilder;
+
 public class DogfightModel implements IDogfightModel {
 	
 	protected Sky sky;
@@ -44,6 +46,12 @@ public class DogfightModel implements IDogfightModel {
 
 	@Override
 	public void setMobilesHavesMoved() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setGraphicsBuilder(GraphicsBuilder graphicsBuilder) {
 		// TODO Auto-generated method stub
 		
 	}
