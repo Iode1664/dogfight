@@ -8,14 +8,19 @@ import javax.swing.JPanel;
 
 public class GamePanel extends JPanel implements Observer{
 
+	protected IGraphicsBuilder igraphicsBuilder;
 	
-	public GamePanel(IGraphicsBuilder graphicsBuilder){
-		
+	public GamePanel(IGraphicsBuilder graphicsBuilder){	
 	}
-	
-	//public void update(Observable observable){
-		
-	//}
+
+	public IGraphicsBuilder getIGraphicsBuilder() {
+		return igraphicsBuilder;
+	}
+
+	public void setIGraphicsBuilder(IGraphicsBuilder igraphicsBuilder) {
+		this.igraphicsBuilder = igraphicsBuilder;
+		igraphicsBuilder.setGamePanel(this);
+	}
 	
 	public void painComponent(Graphics graphics){
 		

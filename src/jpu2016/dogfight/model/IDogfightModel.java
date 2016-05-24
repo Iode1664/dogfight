@@ -1,5 +1,7 @@
 package jpu2016.dogfight.model;
 
+import dogfight.view.GraphicsBuilder;
+
 public interface IDogfightModel {
 	
 	public IArea getIArea(){
@@ -29,5 +31,9 @@ public interface IDogfightModel {
 	public void setMobilesHavesMoved(){
 		
 	}
+
+	public void setGraphicsBuilder(GraphicsBuilder graphicsBuilder);
+
+	
 }
 

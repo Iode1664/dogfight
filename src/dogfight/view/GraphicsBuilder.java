@@ -1,9 +1,9 @@
 package dogfight.view;
 
 import java.awt.Graphics;
-import java.awt.image.BufferedImage;
 import java.awt.image.ImageObserver;
 
+import game.frame.GamePanel;
 import game.frame.IGraphicsBuilder;
 import jpu2016.dogfight.model.IDogfightModel;
 import jpu2016.dogfight.model.IMobile;
@@ -13,12 +13,15 @@ public class GraphicsBuilder implements IGraphicsBuilder{
 	public int Width;
 	public int Height;
 	//protected IDoghtFightModel dogfightModel;
+	protected IDogfightModel idogfigthModel;
 	
-	
-	public GraphicsBuilder(IDogfightModel dogfightModel){
+	public GraphicsBuilder(IDogfightModel idogfightModel){
 		
 		/*this.dogfightModel = new IDogfightModel();
 		this.dogfightModel.setGraphicsBuilder(this);*/
+	
+			this.idogfigthModel.setGraphicsBuilder(this);
+		
 		
 	}
 	
@@ -41,6 +44,20 @@ public class GraphicsBuilder implements IGraphicsBuilder{
 	public int getHeight() {
 		return Height;
 	}
+
+	public void setDogfightView(DogfightView dogfightView) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setGamePanel(GamePanel gamePanel) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+
 	
 	
 	
