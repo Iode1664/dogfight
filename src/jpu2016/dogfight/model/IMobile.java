@@ -1,61 +1,38 @@
 package jpu2016.dogfight.model;
 
+import java.awt.Image;
+import java.awt.Point;
+
 public interface IMobile {
 	
-	public Direction getDirection(){
-		
-	}
+	public Direction getDirection();
 
-	public void setDirection (Direction direction){
-		
-	}
+	public void setDirection (Direction direction);
 	
-	public Point getPosition(){
-		
-	}
+	public Point getPosition();
 	
-	public Dimension getDimension(){
-		
-	}
+	public Dimension getDimension();
 
-	public int getWidth(){
-		
-	}
+	public int getWidth();
 	
-	public int getHeight(){
-		
-	}
+	public int getHeight();
 	
-	public int getSpeed(){
-		
-	}
+	public int getSpeed();
 	
-	public Image getImage(){
-		
-	}
-	public void move(){
-		
-	}
+	public Image getImage();
 	
-	public void PlaceInArea(IArea area){
-		
-	}
+	public void move();
 	
-	public boolean isPlayer(int player){
-		
-	}
+	public void PlaceInArea(IArea area);
 	
-	public setDogfightModel(DogfightModel dogfightModel){
-		
-	}
+	public boolean isPlayer(int player);
 	
-	public boolean hit(){
-		
-	}
+	public void setDogfightModel(DogfightModel dogfightModel) ;
 	
-	public boolean isWeapon(){
-		
-	}
+	
+	public boolean hit();
+	
+	public boolean isWeapon();
 	
 	
 	
