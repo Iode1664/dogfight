@@ -9,7 +9,6 @@ public abstract class UserOrder implements IUserOrder {
 	
 	public Order getOrder() {
 		
-		
 	}
 
 	public int getPlayer() {
