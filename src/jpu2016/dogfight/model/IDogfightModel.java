@@ -1,10 +1,10 @@
 package jpu2016.dogfight.model;
 
 
+
 import java.util.ArrayList;
 
 import dogfight.view.GraphicsBuilder;
-
 
 public interface IDogfightModel {
 	
@@ -21,14 +21,9 @@ public interface IDogfightModel {
 	public IMobile getMobileByPlayer(int player);
 
 	public void setMobilesHavesMoved();
-
-	public IMobile getMobileByPlayer(int player);
-	
-	public void setMobilesHavesMoved();
-
-	public void setGraphicsBuilder(GraphicsBuilder graphicsBuilder);
-
 }
+
 	
+
 
 
