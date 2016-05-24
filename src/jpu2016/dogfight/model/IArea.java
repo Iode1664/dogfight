@@ -1,11 +1,11 @@
 package jpu2016.dogfight.model;
 
 public interface IArea {
-	public getDimension(){
+	public Dimension getDimension(){
 		
 	}
 	
-	public getImage(){
+	public Image getImage(){
 		
 	}
 
