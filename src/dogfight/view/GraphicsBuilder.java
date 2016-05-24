@@ -1,8 +1,12 @@
 package dogfight.view;
 
+import java.awt.Graphics;
 import java.awt.image.BufferedImage;
+import java.awt.image.ImageObserver;
 
 import game.frame.IGraphicsBuilder;
+import jpu2016.dogfight.model.IDogfightModel;
+import jpu2016.dogfight.model.IMobile;
 
 public class GraphicsBuilder implements IGraphicsBuilder{
 

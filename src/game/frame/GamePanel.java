@@ -1,5 +1,7 @@
 package game.frame;
 
+import java.awt.Graphics;
+import java.util.Observable;
 import java.util.Observer;
 
 import javax.swing.JPanel;
@@ -11,11 +13,19 @@ public class GamePanel extends JPanel implements Observer{
 		
 	}
 	
-	public update(Observable observable){
+	//public void update(Observable observable){
 		
-	}
+	//}
 	
 	public void painComponent(Graphics graphics){
 		
 	}
+
+	@Override
+	public void update(Observable observable, Object arg) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
 }
