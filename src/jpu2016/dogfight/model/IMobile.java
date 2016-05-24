@@ -2,7 +2,7 @@ package jpu2016.dogfight.model;
 
 public interface IMobile {
 	
-	public getDirection(){
+	public Direction getDirection(){
 		
 	}
 
@@ -10,25 +10,54 @@ public interface IMobile {
 		
 	}
 	
-	public getDimension(){
+	public Point getPosition(){
+		
+	}
+	
+	public Dimension getDimension(){
 		
 	}
 
-	public getWidth(){
+	public int getWidth(){
 		
 	}
 	
-	public getHeight(){
+	public int getHeight(){
 		
 	}
 	
-	public getSpeed(){
+	public int getSpeed(){
 		
 	}
 	
-	public getImage(){
+	public Image getImage(){
 		
 	}
+	public void move(){
+		
+	}
+	
+	public void PlaceInArea(IArea area){
+		
+	}
+	
+	public boolean isPlayer(int player){
+		
+	}
+	
+	public setDogfightModel(DogfightModel dogfightModel){
+		
+	}
+	
+	public boolean hit(){
+		
+	}
+	
+	public boolean isWeapon(){
+		
+	}
+	
+	
 	
 	
 }
